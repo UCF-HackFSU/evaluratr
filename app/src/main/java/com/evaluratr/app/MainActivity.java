@@ -119,7 +119,10 @@ public class MainActivity extends ActionBarActivity
         public static PlaceholderFragment newInstance(int sectionNumber) {
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            args.putInt(ARG_SECTION_NUMBER, sectionNumber); //fragment placeholder
+
+
+
             fragment.setArguments(args);
             return fragment;
         }
