@@ -133,10 +133,30 @@ public class MainActivity extends ActionBarActivity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
-            return rootView;
+            if(getArguments().getInt(ARG_SECTION_NUMBER) == 1){
+//                TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+//                textView.setText("Saved Searches");
+                View savedSearchesView = inflater.inflate(R.layout.saved_searches_layout, container, false);
+                return savedSearchesView;
+            }
+            else if(getArguments().getInt(ARG_SECTION_NUMBER) == 2){
+//                TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+//                textView.setText("Help");
+                View helpView = inflater.inflate(R.layout.help_layout, container, false);
+                return helpView;
+
+            }
+            else if(getArguments().getInt(ARG_SECTION_NUMBER) == 3){
+//                TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+//                textView.setText("About");
+                View aboutView = inflater.inflate(R.layout.about_layout, container, false);
+                return aboutView;
+            }
+            else{
+            }
+
+            //return rootView;
+            return null;
         }
 
         @Override
