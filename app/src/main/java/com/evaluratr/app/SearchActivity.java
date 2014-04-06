@@ -57,6 +57,10 @@ public class SearchActivity extends Activity {
     public class g1Listener implements RadioGroup.OnCheckedChangeListener{
         public void onCheckedChanged(RadioGroup group, int checkedId){
 
+           // RadioGroup rg=(RadioGroup)findViewById(R.id.youradio);
+            //String val = (RadioButton) (group.findViewById(group.getCheckedRadioButtonId()));
+
+            //String radiovalue=  (RadioButton)group.findViewById(group.getCheckedRadioButtonId()).getText().toString();
             //String t =  group.getChildAt(group.getCheckedRadioButtonId()).toString();
             Toast.makeText(getApplicationContext(), "show g2", Toast.LENGTH_SHORT).show();
 
