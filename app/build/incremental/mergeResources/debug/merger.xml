@@ -7542,6 +7542,16 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="res_main"
+                path="/Users/isabella/AndroidStudioProjects/evaluratr/app/src/main/res/layout/res_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="search_main"
+                path="/Users/isabella/AndroidStudioProjects/evaluratr/app/src/main/res/layout/search_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="global"
                 path="/Users/tylerl109/Desktop/CompSci/evaluratr/app/src/main/res/menu/global.xml"
                 qualifiers=""
@@ -7562,7 +7572,61 @@ false
                 </dimen>
             </file>
             <file
+<<<<<<< HEAD
                 path="/Users/tylerl109/Desktop/CompSci/evaluratr/app/src/main/res/values/strings.xml"
+=======
+                path="/Users/isabella/AndroidStudioProjects/evaluratr/app/src/main/res/values/spinners.xml"
+                qualifiers="" >
+                <string-array name="make_array" >
+                    <item>
+Audi
+                    </item>
+                    <item>
+Toyota
+                    </item>
+                    <item>
+Volkswagen
+                    </item>
+                </string-array>
+                <string-array name="vw_array" >
+                    <item>
+Jetta
+                    </item>
+                    <item>
+Golf
+                    </item>
+                    <item>
+Passat
+                    </item>
+                </string-array>
+                <string-array name="year_array" >
+                    <item>
+2014
+                    </item>
+                    <item>
+2013
+                    </item>
+                </string-array>
+                <string-array name="toyota_array" >
+                    <item>
+Corolla
+                    </item>
+                    <item>
+Prius
+                    </item>
+                </string-array>
+                <string-array name="audi_array" >
+                    <item>
+TT
+                    </item>
+                    <item>
+R8
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/isabella/AndroidStudioProjects/evaluratr/app/src/main/res/values/strings.xml"
+>>>>>>> b0cf042a1693574527ce957fbe206a4923af6902
                 qualifiers="" >
                 <string name="title_section1" >Saved Searches
                 </string>
