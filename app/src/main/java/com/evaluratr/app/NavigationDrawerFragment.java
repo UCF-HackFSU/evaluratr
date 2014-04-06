@@ -249,6 +249,7 @@ public class NavigationDrawerFragment extends Fragment {
 
         if (item.getItemId() == R.id.action_example) {
             Toast.makeText(getActivity(), "SEARCH ACTIVITY!", Toast.LENGTH_SHORT).show();
+            //make intent
             return true;
         }
 
